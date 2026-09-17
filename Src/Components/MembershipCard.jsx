@@ -1,0 +1,58 @@
+function MembershipCard({ student }) {
+  return (
+    <div className="membership-card">
+      <div className="card-top">
+        <div className="card-logo">📚</div>
+
+        <div>
+          <h2>UNIVERSITY LIBRARY</h2>
+          <p>MEMBERSHIP CARD</p>
+        </div>
+      </div>
+
+      <div className="card-line"></div>
+
+      <div className="member-title">
+        <span>LIBRARY MEMBER</span>
+        <span className="member-type">
+          {student.membershipType}
+        </span>
+      </div>
+
+      <div className="student-details">
+        <div className="detail">
+          <span>Name</span>
+          <strong>{student.name}</strong>
+        </div>
+
+        <div className="detail">
+          <span>Enrollment ID</span>
+          <strong>{student.enrollmentId}</strong>
+        </div>
+
+        <div className="detail">
+          <span>Course</span>
+          <strong>{student.course}</strong>
+        </div>
+
+        <div className="detail">
+          <span>Email</span>
+          <strong>{student.email}</strong>
+        </div>
+
+        <div className="detail">
+          <span>Phone</span>
+          <strong>{student.phone}</strong>
+        </div>
+      </div>
+
+      <div className="card-footer">
+        <span>University Library</span>
+        <span>Valid Membership</span>
+      </div>
+    </div>
+  );
+}
+
+export default MembershipCard;
+
