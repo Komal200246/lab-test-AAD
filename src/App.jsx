@@ -1,6 +1,6 @@
 import { useState } from "react";
-import MembershipForm from "./components/MembershipForm";
-import MembershipCard from "./components/MembershipCard";
+import MembershipForm from "./Components/MembershipForm";
+import MembershipCard from "./Components/MembershipCard";
 
 function App() {
   const [student, setStudent] = useState(null);

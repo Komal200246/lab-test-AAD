@@ -57,4 +57,3 @@ function MembershipCard({ student }) {
 export default MembershipCard;
 
 
-

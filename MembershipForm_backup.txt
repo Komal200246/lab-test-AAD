@@ -119,4 +119,3 @@ function MembershipForm({ onSubmit }) {
 }
 
 export default MembershipForm;
-
